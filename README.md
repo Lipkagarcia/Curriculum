@@ -7,7 +7,7 @@ I've done a Technical Coding Course while I was in college, which made me love i
 I decided to start studying codes again - fell in love with Front-End programming - and then after a brief (kinda dumb) 
 insight, I had the idea of put in practice my knowledge in a Curriculum page.
 
-This page is goind to be used for me to get another job. 
+This page is going to be used for me to get another job. 
 
 I organized the HTML and the CSS Layout acording to my ideas.
 
