@@ -1,0 +1,437 @@
+/*REGRAS GERAIS*/
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+body {
+  margin: 0;
+  font-family: Nunito Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;;
+  color: black;
+  background-color: rgb(51, 170, 218);
+  background-image: url(../Imagens/backgrounds/background.png);
+  background-size: cover;
+  font-size: 22px;
+  text-align: center;
+}
+
+h2{
+  margin: 0;
+  padding: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/*HEADER*/
+
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 150px;
+  background-image: url(../Imagens/backgrounds/header-bg.png);
+  background-size: cover;
+  background-color: rgb(40, 62, 74);
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  align-content: space-around;
+  justify-content: space-around;
+  margin: auto;
+}
+
+nav {
+  text-align: justify;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+.icons-header{
+  width: 50px;
+}
+
+a {
+  color: seashell;
+}
+
+
+/*BODY OF THE PAGE*/
+
+
+/*PERSONAL INFORMATION HEADER*/
+
+
+.fakeheader{
+  padding-top: 150px;
+}
+
+.main {
+  width: 1200px;
+  margin: auto;
+  height: 3000px;
+}
+
+#icon-curriculum{
+  width: 65px;
+  margin: 20px;
+  margin-right: 80px;
+}
+
+.nome{
+  margin: auto;
+  color: black;
+  border: 1px solid seashell;
+  align-items: center;
+  width: 1003px;
+  background-color: lightgrey;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+/*PERSONAL INFORMATION BLOCK*/
+
+.grid-container-personal{
+  padding-top: 10px;
+  display: inline-grid;
+  grid-column-gap: 5px;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+  height: 400px;
+
+}
+
+.grid-personal1{
+  border: 1px solid seashell;
+  border-radius: 15px;
+  height: auto;
+  }
+
+.photo{
+  object-fit: fill;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.grid-personal2{
+  display: grid;
+  grid-template-areas:
+  "a"
+  "b"
+  "c"
+  "d"
+  "e";
+  align-content: center;
+  justify-content: space-around;
+  padding: auto;
+  text-align: justify;
+  border: 1px solid seashell;
+  background-color: lightgrey;
+  border-radius: 15px;
+}
+
+.adress{
+  grid-area: a;
+}
+
+.mail{
+  grid-area: b;
+}
+
+.phone{
+  grid-area: c;
+}
+
+.marital{
+  grid-area: d;
+}
+
+.datebirth{
+  grid-area: e;
+}
+
+.icons-info{
+  width: 30px;
+}
+
+/*ACADEMIC INFO BLOCK*/
+
+/*GENERAL RULE FOR THE FLEX-CONTAINERS IN THIS SECTION*/
+
+.academic{
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: lightgrey;
+  border: 1px solid seashell;
+  border-radius: 10px;
+  display: inline-flex;
+  padding-bottom: 30px;
+}
+
+.icons-academic{
+  margin-top: auto;
+  justify-content: center;
+  width: 150px
+}
+
+.academic h2{
+  margin: 15px 0px 10px 0px;
+}
+
+/*TECHNICAL COURSE BLOCK RULES*/
+
+.technical-line{
+  width: 100%;
+  height: auto;
+  margin: 10px 0px 10px 0px;
+  display: flex;
+}
+
+.academic .technical{
+  background-color: lightgrey;
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 0px 10px 0px 15px;
+  text-align: justify;
+  font-size: 24px;
+}
+
+.academic .technical-icon{
+  background-color: lightgrey;
+  width: 16.5%;
+  height: 100%;
+  margin: 0px 15px 0px 0px;
+}
+
+/*MY FIRST GRADUATION COURSE BLOCK RULES*/
+
+.graduation1-line{
+  width: 100%;
+  height: auto;
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  font-size: 24px;
+}
+
+.academic .graduation1{
+  background-color: lightgrey;
+  width: 80%;
+  border-radius: 10px;
+  margin: 0px 15px 0px 10px;
+  text-align: justify;
+}
+
+.academic .graduation1-icon{
+  background-color: lightgrey;
+  width: 16.5%;
+  margin: 0px 0px 0px 15px;
+}
+
+/*MY SECOND GRADUATION COURSE BLOCK RULES*/
+
+.graduation2-line{
+  width: 100%;
+  height: auto;
+  margin: 10px 0px 10px 0px;
+  display: flex;
+}
+
+.academic .graduation2{
+  background-color: lightgrey;
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0px 10px 0px 15px;
+  text-align: justify;
+  font-size: 24px;
+}
+
+.academic .graduation2-icon{
+  background-color: lightgrey;
+  width: 16.5%;
+  height: auto;
+  margin: 0px 15px 0px 0px;
+}
+
+/*MY POST-GRADUATION COURSE BLOCK RULES*/
+
+.post-graduation-line{
+  width: 100%;
+  height: auto;
+  margin: 10px 0px 10px 0px;
+  display: flex;
+}
+
+.academic .post-graduation{
+  background-color: lightgrey;
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0px 15px 0px 10px;
+  font-size: 24px;
+  text-align: justify;
+}
+
+.academic .post-graduation-icon{
+  background-color: lightgrey;
+  width: 16.5%;
+  height: auto;
+  margin: 0px 0px 0px 15px;
+
+}
+
+
+/*BLOCO DE HABILIDADES*/
+/*I used flex-box and grid-layout to get a chess board effect.*/
+
+.skills{
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+
+.skills h2{
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+  border-radius: 10px;
+  width: 87%;
+  height: auto;
+  background-color: lightgrey;
+  border: 1px solid seashell;
+}
+
+.skills-line{
+  width: 100%;
+  height: 250px;
+  margin: 20px 20px 20px 20px;
+  display: inline-flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.skills-item{
+  width: 100%;
+  height: 100%;
+  margin: auto 20px auto 20px;
+  border: 1px solid seashell;
+  background-color: lightgrey;
+  border-radius: 10px;
+  display: grid;
+  grid-template-areas: "a"
+                       "b";
+  grid-template-rows: 100px;
+  grid-template-columns: 200px;
+  align-content: center;
+  justify-content: space-around;
+  text-align: justify;
+  align-items: center;
+  grid-gap: 40px;
+}
+
+.skills-icon{
+  grid-area: a;
+  width: 60%;
+  margin: auto;
+}
+
+.skills-item p {
+  grid-area: b;
+  text-align: justify;
+  margin: auto;
+  font-size: 20pt;
+}
+
+
+/*PROFESSIONAL EXPERIENCES BLOCK*/
+/*Here I used grid-layout, which sounded me a better idea - design-speaking.*/
+
+.grid-container-profession{
+  padding-top: 10px;
+  display: grid;
+  grid-template-areas:  "a a a a"
+                        "b c d e"
+                        "f g h i";
+  grid-gap: 20px;
+  background-color: lightgrey;
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  border: 1px solid seashell;
+  text-align: center;
+}
+
+.grid-container-profession h2{
+  grid-area: a;
+  margin: 10px;
+}
+
+.grid-container-profession h3{
+  margin: 10px;
+  height: 80px;
+}
+
+.grid-container-profession p{
+  text-align: justify;
+}
+
+.profession-column1 h3{
+  grid-area: b;
+}
+
+.profession-column2 h3{
+  grid-area: c;
+}
+
+.profession-column3 h3{
+  grid-area: d;
+}
+
+.profession-column4 h3{
+  grid-area: e;
+}
+
+.profession-column1 p{
+  grid-area: f;
+  margin: 10px;
+  }
+
+.profession-column2 p{
+  grid-area: g;
+  margin: 10px;
+}
+
+.profession-column3 p{
+  grid-area: h;
+  margin: 10px;
+}
+
+.profession-column4 p{
+  grid-area: i;
+  margin: 10px;
+}
+
+
+/*CONTACT BOX*/
+
+.contactbox{
+  margin-top: 20px;
+  width: 400px;
+  height: 200px;
+  background-color: lightgrey;
+  border: 1px solid seashell;
+  border-radius: 10px;
+  display: inline-flex;
+  padding-bottom: 30px;
+}
